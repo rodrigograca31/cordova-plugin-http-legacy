@@ -1,0 +1,21 @@
+{
+    "author": {
+        "name": "Rodrigo Graça"
+    },
+    "cordova": {
+        "id": "cordova-plugin-http-legacy",
+        "platforms": [
+            "android"
+        ]
+    },
+    "deprecated": false,
+    "description": "",
+    "homepage": "",
+    "keywords": [
+        "cordova",
+        "http-legacy"
+    ],
+    "license": "",
+    "name": "cordova-plugin-http-legacy",
+    "version": "1.0.0"
+}

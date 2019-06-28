@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-http-legacy"
+	version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+	<name>Cordova Plugin - HTTP Legacy</name>
+	<description>Adds HTTP Legacy library to solve bug</description>
+	<author>Rodigo</author>
+	<license>?</license>
+	<keywords>http, Android 9, http legacy</keywords>
+	<repo></repo>
+	<issue></issue>
+
+	<engines>
+		<engine name="cordova" version=">=8.0" />
+	</engines>
+
+	<platform name="android">
+
+		<config-file parent="/manifest/application" target="AndroidManifest.xml">
+			<uses-library android:name="org.apache.http.legacy" android:required="false" />
+		</config-file>
+
+		<framework src="build.gradle" custom="true" type="gradleReference" />
+
+	</platform>
+</plugin>
